@@ -1,0 +1,111 @@
+.open .navItem:nth-child(2) {
+    transition-delay: 160ms;
+}
+
+.open .navItem:nth-child(4) {
+    transition-delay: 240ms;
+}
+
+#navbar_104 .icon-navItemIcon:before {
+    content: '';
+    content: '';
+}
+
+#navbar_104 .icon-navItemIcon {
+    background-image: none;
+}
+
+.open .navItem:nth-child(6) {
+    transition-delay: 320ms;
+}
+
+#navbar_105 .icon-navItemIcon:before {
+    content: '';
+    content: '';
+}
+
+#navbar_105 .icon-navItemIcon {
+    background-image: none;
+}
+
+.open .navItem:nth-child(8) {
+    transition-delay: 400ms;
+}
+
+.open .navItem:nth-child(10) {
+    transition-delay: 480ms;
+}
+
+.open .navItem:nth-child(12) {
+    transition-delay: 560ms;
+}
+
+.open .navItem:nth-child(2) {
+    transition-delay: 160ms;
+}
+
+
+
+
+
+
+#svebar_1 .icon-serItemIcon:before {
+    content: '\e62c';
+    content: '\e62c';
+}
+
+#svebar_1 .icon-serItemIcon {
+    background-image: none;
+}
+
+.open .navItem:nth-child(4) {
+    transition-delay: 240ms;
+}
+
+#svebar_3 .icon-serItemIcon:before {
+    content: '\e67c';
+    content: '\e67c';
+}
+
+#svebar_3 .icon-serItemIcon {
+    background-image: none;
+}
+
+.open .navItem:nth-child(6) {
+    transition-delay: 320ms;
+}
+
+#svebar_4 .icon-serItemIcon:before {
+    content: '\e6b2';
+    content: '\e6b2';
+}
+
+#svebar_4 .icon-serItemIcon {
+    background-image: none;
+}
+
+.open .navItem:nth-child(8) {
+    transition-delay: 400ms;
+}
+
+#svebar_5 .icon-serItemIcon:before {
+    content: '';
+    content: '';
+}
+
+#svebar_5 .icon-serItemIcon {
+    background-image: none;
+}
+
+.open .navItem:nth-child(10) {
+    transition-delay: 480ms;
+}
+
+#svebar_2 .icon-serItemIcon:before {
+    content: '\e6a0';
+    content: '\e6a0';
+}
+
+#svebar_2 .icon-serItemIcon {
+    background-image: none;
+}

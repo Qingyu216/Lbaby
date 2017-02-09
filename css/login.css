@@ -1,0 +1,79 @@
+.open .navItem:nth-child(2) {
+    transition-delay: 160ms;
+}
+
+.open .navItem:nth-child(4) {
+    transition-delay: 240ms;
+}
+
+#navbar_104 .icon-navItemIcon:before {
+    content: '';
+    content: '';
+}
+
+#navbar_104 .icon-navItemIcon {
+    background-image: none;
+}
+
+.open .navItem:nth-child(6) {
+    transition-delay: 320ms;
+}
+
+#navbar_105 .icon-navItemIcon:before {
+    content: '';
+    content: '';
+}
+
+#navbar_105 .icon-navItemIcon {
+    background-image: none;
+}
+
+.open .navItem:nth-child(8) {
+    transition-delay: 400ms;
+}
+
+.open .navItem:nth-child(10) {
+    transition-delay: 480ms;
+}
+
+.open .navItem:nth-child(12) {
+    transition-delay: 560ms;
+}
+
+.g_web {
+    overflow-x: auto;
+}
+
+.webContainerBox {
+    position: static;
+}
+
+.form {
+    position: static;
+}
+
+#webHeaderBox {
+    display: none;
+}
+
+#webBannerBox {
+    display: none;
+}
+
+.form.Handle {
+    margin: 0px;
+    padding: 0px;
+}
+
+.form .formBannerTitle {
+    display: none;
+}
+
+.formMiddle {
+    padding: 0px;
+    background: none;
+    border: none;
+    box-shadow: none;
+    box-sizing: border-box;
+    margin-top: 0 !important;
+}

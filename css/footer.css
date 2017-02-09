@@ -1,0 +1,94 @@
+.open .navItem:nth-child(2) {
+    transition-delay: 160ms;
+}
+
+#svebar_1 .icon-serItemIcon:before {
+    content: "";
+    background: url('../images/12.png') no-repeat;
+    background-size: 30px 35px;
+    display: block;
+    height: 35px;
+    width: 30px;
+    position: relative;
+    top: 0.1rem;
+}
+
+#svebar_1 .icon-serItemIcon {
+    background-image: none;
+}
+
+.open .navItem:nth-child(4) {
+    transition-delay: 240ms;
+}
+
+#svebar_3 .icon-serItemIcon:before {
+    content: "";
+    background: url('../images/08.png') no-repeat;
+    background-size: 30px 35px;
+    display: block;
+    height: 35px;
+    width: 30px;
+    position: relative;
+    top: 0.1rem;
+}
+
+#svebar_3 .icon-serItemIcon {
+    background-image: none;
+}
+
+.open .navItem:nth-child(6) {
+    transition-delay: 320ms;
+}
+
+#svebar_4 .icon-serItemIcon:before {
+    content: "";
+    background: url('../images/09.png') no-repeat;
+    background-size: 30px 30px;
+    display: block;
+    height: 30px;
+    width: 30px;
+    position: relative;
+    top: 0.3rem;
+}
+
+#svebar_4 .icon-serItemIcon {
+    background-image: none;
+}
+
+.open .navItem:nth-child(8) {
+    transition-delay: 400ms;
+}
+
+#svebar_5 .icon-serItemIcon:before {
+    content: "";
+    background: url('../images/10.png') no-repeat;
+    background-size: 30px 35px;
+    display: block;
+    height: 35px;
+    width: 30px;
+    position: relative;
+    top: 0.1rem;
+}
+
+#svebar_5 .icon-serItemIcon {
+    background-image: none;
+}
+
+.open .navItem:nth-child(10) {
+    transition-delay: 480ms;
+}
+
+#svebar_2 .icon-serItemIcon:before {
+    content: "";
+    background: url('../images/11.png') no-repeat;
+    background-size: 30px 26px;
+    display: block;
+    height: 26px;
+    width: 30px;
+    position: relative;
+    top: 0.3rem;
+}
+
+#svebar_2 .icon-serItemIcon {
+    background-image: none;
+}

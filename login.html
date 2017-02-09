@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>会员登录 - Darling Home</title>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=2.0, user-scalable=1"> -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="layoutmode" content="standard">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="renderer" content="webkit">
+    <!-- QQ强制全屏 -->
+    <meta name="x5-fullscreen" content="true">
+    <!-- UC强制全屏 -->
+    <meta name="full-screen" content="yes">
+    <!-- QQ应用模式 -->
+    <meta name="x5-page-mode" content="app">
+    <!-- UC应用模式 -->
+    <meta name="browsermode" content="application">
+    <!--uc浏览器判断到页面上文字居多时，会自动放大字体优化移动用户体验。添加以下头部可以禁用掉该优化-->
+    <meta name="wap-font-scale" content="no">
+    <meta content="telephone=no" name="format-detection" />
+    <META HTTP-EQUIV="Pragma" CONTENT="no-cache"></META>
+    <link rel="stylesheet" type="text/css" href="./css/base.min.css" title="default" />
+    <link rel="stylesheet" id="mobiStyleTemplateCss" type="text/css" href="./css/1011_3.min.css" />
+    <link rel="stylesheet" type="text/css" href="./css/footer.css">
+</head>
+
+<body class="g_locale2052 mobiCol10">
+    <div id="g_web" class="g_web">
+        <div class='formMiddleContent formMiddleContent8 moduleContent'>
+            <div id='mLogin'>
+                <div class='loginHeader webHeaderBg'>
+                    <a href='./index.html' class='g_close icon-gClose'></a>
+                    <span class='title  pageTitle'>会员登录</span></div>
+                <div class='loginContent' style="background:white;">
+                    <div class='g_globalLine'><input type='text' maxlength='50' id='user' class='itemEdit g_input mustItem' placeholder='请输入帐号'><span class='icon-userIcon g_mainColor'></span></div>
+                    <div class='g_globalLine'><input type='password' maxlength='20' id='password' class='itemEdit g_input  mustItem' placeholder='请输入密码'><span class='icon-pswIcon g_mainColor'></span></div>
+                    <div class='loginCaptchaCtrl g_globalLine'><input id='loginCaptcha' type='text' class='captchaText g_input' maxlength='4' placeholder='请输入验证码' /><img id='loginCaptchaImg' class='captchaImg' src='validateCode.jsp?v=967' onclick='Mobi.changeValidateCode(jm("#loginCaptchaImg"))' /></div>
+                    <div class='g_globalLine'><input type='button' class=' g_button sendIcon' onclick='Mobi.memberLogin("./index.html")' value='登录' disabled /></div>
+                    <div class='loginBottom g_globalLine'><a class='g_mainColor freeRegister' href='./signup.html'>免费注册</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" charset="utf-8" src="./js/jqmobi.min.js"></script>
+    <script id="mobiOperationJS" type="text/javascript" charset="utf-8" src="./js/mobi.min.js"></script>
+    <script type="text/javascript" src="./js/2052.min.js"></script>
+    <script type="text/javascript" src="./js/public.js"></script>
+</body>
+
+</html>
